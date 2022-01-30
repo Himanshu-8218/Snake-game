@@ -136,6 +136,10 @@ int main()
     a.Y = 17;
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), a);
     printf("Your score is : %d", score);
+    a.X = 50;
+    a.Y = 18;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), a);
+    printf("Your steps : %d", Max_step);
     getch();
         system("cls");
         system("game.exe");
@@ -152,8 +156,6 @@ int main()
     }
     else if(l=='f')
     {
-    while(1)
-    {
     a.X = ++x;
     a.Y = y;
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), a);
@@ -164,7 +166,6 @@ int main()
     printf(" ");
     a.X = x+1;
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), a);
-    }
 
     // printf("\b\b ");
     // a.X = x;
@@ -181,6 +182,10 @@ int main()
     a.Y = 17;
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), a);
     printf("Your score is : %d", score);
+    a.X = 50;
+    a.Y = 18;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), a);
+    printf("Your steps : %d", Max_step);
     getch();
         system("cls");
         system("game.exe");
@@ -220,6 +225,10 @@ int main()
     a.Y = 17;
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), a);
     printf("Your score is : %d", score);
+    a.X = 50;
+    a.Y = 18;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), a);
+    printf("Your steps : %d", Max_step);
     getch();
         system("cls");
         system("game.exe");
@@ -259,6 +268,10 @@ int main()
     a.Y = 17;
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), a);
     printf("Your score is : %d", score);
+    a.X = 50;
+    a.Y = 18;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), a);
+    printf("Your steps : %d", Max_step);
     getch();
         system("cls");
         system("game.exe");
@@ -293,6 +306,10 @@ int main()
     if(x== p && y == q)
     {
     score+=1;
+    a.X = 3;
+    a.Y = 1;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), a);
+    printf("Score :%d",score);
     a.X=p;
     a.Y=q;
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), a);
